@@ -1,0 +1,93 @@
+body{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}
+.contentBox{
+	width: 98%;
+	height: 100%;
+	text-align: center;
+	margin-left: 1%;
+}
+.fourBox{
+	width: 100%;
+}
+.zc{
+	background-color: green;
+	color: #ffffff;
+}
+.yc{
+	background-color: red;
+	color: #ffffff;
+}
+.fourBox p{
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	clear: both;
+}
+.mianBox{
+	height: 220px;
+	width: 21%;
+	float: left;
+	background-color: #10244a;
+	padding: 1%;
+	margin: 0 1%;
+}
+.mianBox1{
+	height: 300px;
+	width: 96%;
+	float: left;
+	background-color: #10244a;
+	padding: 1%;
+	margin: 0 1%;
+	margin-top: 10px;
+}
+.mianBox2{
+	height: 300px;
+	width: 96%;
+	float: left;
+	color: #ddd;
+	background-color: #10244a;
+	padding: 1%;
+	margin: 0 1%;
+	margin-top: 10px;
+}
+.title{
+	height: 20px;
+	line-height: 16px;
+	color: #ffffff;
+}
+#main1,#main2,#main3,#main4,#tableMain{
+	width: 100%;
+	float: left;
+	height: 200px;
+}
+#main5{
+	width: 100%;
+	height: 280px;
+	float: left;
+}
+#main6,#main7{
+	width: 100%;
+	height: 280px;
+	float: left;
+}
+#tableMain{
+	background-color: #ffffff;
+}
+#tableMain table{
+	width: 100%;
+}
+.clearfix{
+     zoom: 1;
+}
+.clearfix:before,
+.clearfix:after
+{
+    display: table;
+    content:" ";
+}
+.clearfix:after{
+    clear:both;
+}
